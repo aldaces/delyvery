@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.container-title h3 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.container-title p {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/head.jpg)no-repeat;
+    background-size: 100%;
+}
+
+.head {
+    height: 50px;
+    background-color: rgb(106, 129, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .menu .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head .menu .menu-list-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.head .menu .menu-list-item a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 934px;
+}
+
+.main .main-text {
+    color: #fff;
+    width: 40%;
+    text-align: center;
+}
+
+.main .main-text h1 {
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main .main-text p {
+    font-size: 1.2em;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service .service-item {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 300px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+.service .service-item .service-item-img {
+    font-size: 5em;
+    color: grey;
+}
+
+.service .service-item .service-item-title {
+    font-size: 2em;
+}
+
+.service .service-item .service-item-desc {
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+
+.advantages {
+    background-color: rgb(106, 129, 173);
+}
+
+
+.advantages .advantages-item {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid red;
+    background-color: rgb(158, 182, 255);
+}
